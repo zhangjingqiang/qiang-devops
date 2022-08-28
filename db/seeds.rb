@@ -14,19 +14,19 @@ qiang_dev = Stack.create(
 qiang_dev.skills.create(description: "Python")
 qiang_dev.skills.create(description: "Ruby on Rails")
 qiang_dev.skills.create(description: "Go")
+qiang_dev.skills.create(description: "Rust")
 qiang_dev.skills.create(description: "Node.js")
-qiang_dev.skills.create(description: "Elixir")
 qiang_dev.skills.create(description: "PHP")
-qiang_dev.skills.create(description: "Scala")
+qiang_dev.skills.create(description: "Elixir")
 
 qiang_ops = Stack.create(
   title: "Qiang's Operations",
   description: "Operations skills Qiang has mastered."
 )
 qiang_ops.skills.create(description: "Kubernetes")
-qiang_ops.skills.create(description: "Docker")
+qiang_ops.skills.create(description: "Prometheus")
+qiang_ops.skills.create(description: "Grafana")
 qiang_ops.skills.create(description: "Ansible")
-qiang_ops.skills.create(description: "OpenStack")
-qiang_ops.skills.create(description: "CoreOS")
-qiang_ops.skills.create(description: "Rancher")
 qiang_ops.skills.create(description: "Jenkins")
+qiang_ops.skills.create(description: "Consul")
+qiang_ops.skills.create(description: "Vault")
